@@ -1,0 +1,140 @@
+@import "./reset.css";
+
+.service--section {
+  padding: 60px 0;
+  overflow: hidden;
+  background-color: #f3f5fa;
+  display: block;
+}
+
+.service--wrapper {
+  margin: 0 4rem 0 4rem;
+}
+
+.service--title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+.service--title::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.service--title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.service--section p {
+  display: block;
+  text-align: center;
+}
+
+.service--contents {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.service--contents--box {
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 50px 30px;
+  margin: 10px;
+  box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+  width: 40%;
+}
+
+.service--contents--icon {
+  margin-bottom: 10px;
+}
+
+.service--contents--title {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #37517e;
+}
+.service--contents--content {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+/*
+@media screen and (min-width: 1200px) {
+  .service--contents--box {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .service--contents--box {
+    width: 40%;
+  }
+}
+*/
+
+.action--wrapper {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+    url(./cta-bg.jpeg) fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+.action--contents {
+  display: flex;
+  width: 100%;
+  margin: 0 6rem 0 6rem;
+  justify-content: center;
+  align-items: center;
+}
+.action--contents--content {
+}
+.action--title {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.action--content {
+  font-size: 16px;
+}
+.action-btn-wrap {
+  width: 50%;
+  padding-left: 4rem;
+}
+.action--btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  vertical-align: middle;
+}
