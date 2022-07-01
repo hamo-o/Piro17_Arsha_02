@@ -46,14 +46,18 @@ input:focus {
   outline: none;
 }
 
+textarea:focus{
+  outline: none;
+}
+
 
 .body--conatact--to-end{
   display: flex;
 }
 
 .body--contact--align{
-  width: 1203px;
-  height: 950px;
+  width: 100%;
+  height: px;
   vertical-align: middle;
   padding: 60px 0;
   overflow: hidden;
@@ -86,7 +90,7 @@ input:focus {
 .contact--flexbox{
   display: flex;
   width: 1116px;
-  height:650px;
+  height:600px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -108,16 +112,6 @@ input:focus {
     height: 600px;
     box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
     margin-right: 30px;
-}
-
-.contact--flexbox--email-form{
-  width: 620px;
-  height: 600px;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
-  padding: 30px;
-  background: #fff;
-  box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
 }
 
 .contact--flexbox--text{
@@ -208,3 +202,185 @@ input:focus {
   margin-bottom: 20px;
 }
 
+.contact--flexbox--email-form{
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  height: 600px;
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+}
+
+.email-form--text{
+  display: inline-block;
+  padding-bottom: 8px;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+.email-form--input--short{
+  width: 253px;
+  height: 45px;
+  padding: 6px 12px;
+  font-size: 15px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 5px;
+}
+
+.contact--email-form--input{
+  width: 555px;
+  height: 45px;
+  padding: 6px 12px;
+  font-size: 15px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 5px;
+
+}
+
+.contact--emil-form--top{
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 35px;
+}
+
+.contact--email-form--left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.contact--email-form--right{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
+}
+
+.contact--email-form--middle{
+  margin-bottom: 35px;
+}
+
+.contact--email-form--bottom{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact--email-form--teaxtarea{
+  width: 555px;
+  height: 45px;
+  padding: 6px 12px;
+  font-size: 15px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 5px;
+}
+
+.contact--email-form--teaxtarea:focus{
+  border: 1px solid rgb(112, 158, 255);
+  outline:none;
+}
+
+.contact--email-form--input:focus{
+  border: 1px solid rgb(112, 158, 255);
+  outline:none;
+}
+
+.email-form--input--short:focus{
+  border: 1px solid rgb(112, 158, 255);
+  outline:none;
+}
+
+.contact--email-form--btn{
+  background-color: #47b2e4;
+  width: 170px;
+  height: 100px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 40px;
+  margin: 15px auto;
+
+}
+
+.contact--email-form--btn span{
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.body--footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.body--footer--newsletter{
+  background-color: #f3f5fa;
+  width: 100%px;
+  height: 250px;
+
+}
+
+.footer--newsletter--center{
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.footer--newsletter--title{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Jost", sans-serif;
+  color: #37517e;
+  margin: 40px 0 10px 0;
+  text-align: center;
+}
+
+.footer--newsletter--text{
+  text-align: center;
+  font-size: 16px;
+  color: #444444;
+}
+
+.footer--newsletter--center form{
+  display:flex;
+  margin-top: 20px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 6%);
+  text-align: left;
+}
+
+.footer--newsletter--input{
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+  height: 30px;
+}
+
+.footer--newsletter--submit{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #47b2e4;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.body--footer--top{
+  
+}

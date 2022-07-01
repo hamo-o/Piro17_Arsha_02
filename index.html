@@ -27,7 +27,7 @@
       <div class="body--contact--align">
         <div class="contact--section-title">
           <h2 class="contact--head">
-            Contact
+            <b>Contact</b>
           </h2>
           <p class="contact--text">
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
@@ -69,28 +69,31 @@
             </div>
 
             <form action="forms/contact.php" method="post" role="form" class="contact--flexbox--email-form">
-              <div class="contact--emil-form--section">
+              <div class="contact--emil-form--top">
                 <div class="contact--email-form--left"> 
                   <label class="email-form--text" for="name">Your Name</label>
-                  <input type="text" name="name" class="contact--email-form--input" id="emial-form--name" required="">
+                  <input type="text" name="name" class="email-form--input--short" id="emial-form--name" required=""/>
                 </div>
                 
                 <div class="contact--email-form--right"> 
                   <label class="email-form--text" for="name">Your Email</label> 
-                  <input type="email" class="contact--email-form--input" name="email" id="email-form--email" required="">
+                  <input type="email" class="email-form--input--short" name="email" id="email-form--email" required=""/>
                 </div>
               </div>
-              
-              <div class="contact--emil-form--section"> 
-                <label class="email-form--text" for="name">Subject</label> 
-                <input type="text" class="contact--email-form--input" name="subject" id="email-form--subject" required="">
-              </div>
-              
-              <div class="contact--emil-form--section"> 
-                <label class="email-form--text" for="name">Message</label>
-                <textarea class="contact--email-form--input" name="message" rows="10" required="">
-                </textarea>
-              </div>
+                <div class="contact--email-form--middle">
+                  <label class="email-form--text" for="name">Subject</label> 
+                  <input type="text" class="contact--email-form--input" name="subject" id="email-form--subject" required=""/>
+                </div>
+                <div class="contact--email-form--bottom">
+                  <label class="email-form--text" for="name">Message</label>
+                  <textarea class="contact--email-form--textarea" name="message" rows="15" required=""></textarea>
+                </div>
+                <div class="contact--email-form--btn">
+                  <button type="submit">
+                    <span>Send Message</span>
+                  </button>
+                </div>
+
               
               <!-- <div class="my-3">
                 <div class="loading">Loading</div>
@@ -98,9 +101,6 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>  -->
               
-              <div class="contact--email-form--btn">
-                <button type="submit">Send Message</button>
-              </div>
             </form>
           </div>
         </div>
@@ -110,10 +110,10 @@
       <div class="body--footer--newsletter">
         <div class="footer--newsletter--center">
           <h4 class="footer--newsletter--title">Join Our Newsletter</h4>
-          <p class="footer--newsletter-text">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <p class="footer--newsletter--text">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
           <form action method="post">
             <input class="footer--newsletter--input" type="email" name="email" />
-            <input class="foolter--newsletter--submit" type="submit" value="Subscribe" name="submit-btn"/>
+            <input class="footer--newsletter--submit" type="submit" value="Subscribe" name="submit-btn"/>
           </form>
         </div>
       </div>
