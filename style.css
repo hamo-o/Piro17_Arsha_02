@@ -33,8 +33,6 @@ h6 {
 
 /****************** pricing *****************/
 .pricing {
-  width: 1541px;
-
   padding: 60px 0;
 }
 
@@ -51,7 +49,7 @@ h6 {
 .pricing--title {
   text-align: center;
   font-size: 32px;
-  font-weight: 900;
+  font-weight: bold;
 
   margin: 0 0 20px;
   padding: 0 0 20px;
@@ -61,12 +59,29 @@ h6 {
   color: #37517e;
 }
 
-.pricing--bar {
+.pricing--bar1 {
   width: 120px;
   height: 1px;
   background: #ddd;
 
   position: absolute;
+  display: block;
+
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.pricing--bar2 {
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+
+  content: "";
+  position: absolute;
+  display: block;
+
+  bottom: 0;
+  left: calc(50% - 20px);
 }
 
 .pricing--text {
@@ -75,16 +90,18 @@ h6 {
 
 .pricing-contents {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
+
+  width: 1320px;
 
   margin: 0 -12px;
   padding: 40px 0 0;
 }
 
 .pricing-contents--box {
-  width: 440px;
-  height: 573.19px;
+  width: 416px;
+  height: 100%;
 
   padding: 0 12px;
 }
@@ -106,8 +123,11 @@ h6 {
 }
 
 .pricing-contents--price {
-  font-size: 48px;
+  display: block;
+
   color: #37517e;
+
+  font-size: 48px;
   font-weight: 400;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
@@ -129,7 +149,9 @@ h6 {
 }
 
 .pricing-content--list {
+  margin: 0 0 16px;
   padding: 20px 0;
+
   list-style: none;
   color: #999;
   text-align: left;
@@ -164,7 +186,9 @@ h6 {
 
 .pricing-content--btn {
   color: #47b2e4;
+
   display: inline-block;
+
   padding: 12px 35px;
   border-radius: 50px;
   transition: none;
@@ -191,11 +215,7 @@ h6 {
 
 .quest {
   background: #f2f5f9;
-
-  width: 1541px;
-  height: 889.59px;
-
-  padding: 60px;
+  padding: 60px 0;
 }
 
 .quest-container {
@@ -221,12 +241,29 @@ h6 {
   color: #37517e;
 }
 
-.quest--bar {
+.quest--bar1 {
   width: 120px;
   height: 1px;
   background: #ddd;
 
   position: absolute;
+  display: block;
+
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.quest--bar2 {
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+
+  content: "";
+  position: absolute;
+  display: block;
+
+  bottom: 0;
+  left: calc(50% - 20px);
 }
 
 .quest--text {
@@ -267,8 +304,7 @@ h6 {
   left: 20px;
   color: #47b2e4;
 }
-.faq .faq-list .icon-show,
-.faq .faq-list .icon-close {
+.quest-contents--box--item .quest-contents--box--show {
   font-size: 24px;
   position: absolute;
   right: 0;
