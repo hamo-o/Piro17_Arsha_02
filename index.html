@@ -14,7 +14,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>dev1</title>
+    <script
+      src="https://kit.fontawesome.com/40607578ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c1be11131c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
   </head>
   <body>
     <!--처음 ~ about us 이전까지-->
@@ -328,11 +336,256 @@
     <!-- pricing ~ fre-->
 
     <section></section>
+
     <!-- concat ~ 마지막-->
-    <section></section>
-    <script
-      src="https://kit.fontawesome.com/c1be11131c.js"
-      crossorigin="anonymous"
-    ></script>
+    <section class="body--contact--to-end">
+      <div class="body--contact--align">
+        <div class="contact--section-title">
+          <h2 class="contact--head">
+            <b>Contact</b>
+          </h2>
+          <p class="contact--text">
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+
+        <div class="contact--flexbox">
+          <div class="info--outer-box">
+            <div class="contact--flexbox--info">
+              <div class="contact--flexbox--location">
+                <i class="fa-solid fa-location-dot">
+                  <div class="contact--icon--circle"></div>
+                </i>
+                <div class="contact--flexbox--text">
+                  <h4 id="contact--title--location">Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="contact--flexbox--email">
+                <i class="fa-regular fa-envelope">
+                  <div class="contact--icon--circle"></div>
+                </i>
+                <div class="contact--flexbox--text">
+                  <h4 id="contact--title--email">Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+              <div class="contact--flexbox--phone">
+                <i class="fa-solid fa-mobile-button">
+                  <div class="contact--icon--circle"></div>
+                </i>
+                <div class="contact--flexbox--text">
+                  <h4 id="contact--title--phone">Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+              </div>
+              <iframe
+                class="contact--flexbox--iframe"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                frameborder="0"
+                style="border: 0; width: 100%; height: 290px"
+                allowfullscreen=""
+              ></iframe>
+            </div>
+
+            <form
+              action="forms/contact.php"
+              method="post"
+              role="form"
+              class="contact--flexbox--email-form"
+            >
+              <div class="contact--emil-form--top">
+                <div class="contact--email-form--left">
+                  <label class="email-form--text" for="name">Your Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    class="email-form--input--short"
+                    id="emial-form--name"
+                    required=""
+                  />
+                </div>
+
+                <div class="contact--email-form--right">
+                  <label class="email-form--text" for="name">Your Email</label>
+                  <input
+                    type="email"
+                    class="email-form--input--short"
+                    name="email"
+                    id="email-form--email"
+                    required=""
+                  />
+                </div>
+              </div>
+              <div class="contact--email-form--middle">
+                <label class="email-form--text" for="name">Subject</label>
+                <input
+                  type="text"
+                  class="contact--email-form--input"
+                  name="subject"
+                  id="email-form--subject"
+                  required=""
+                />
+              </div>
+              <div class="contact--email-form--bottom">
+                <label class="email-form--text" for="name">Message</label>
+                <textarea
+                  class="contact--email-form--textarea"
+                  name="message"
+                  rows="15"
+                  required=""
+                ></textarea>
+              </div>
+              <div class="contact--email-form--btn">
+                <button type="submit">
+                  <span>Send Message</span>
+                </button>
+              </div>
+
+              <!-- <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>  -->
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <footer class="body--footer">
+        <div class="body--footer--newsletter">
+          <div class="footer--newsletter--center">
+            <h4 class="footer--newsletter--title">Join Our Newsletter</h4>
+            <p class="footer--newsletter--text">
+              Tamen quem nulla quae legam multos aute sint culpa legam noster
+              magna
+            </p>
+            <form action method="post">
+              <input
+                class="footer--newsletter--input"
+                type="email"
+                name="email"
+              />
+              <input
+                class="footer--newsletter--submit"
+                type="submit"
+                value="Subscribe"
+                name="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="body--footer--top">
+          <div class="footer--top--flexbox">
+            <div class="footer--top--inner-box">
+              <div class="footer--top--first">
+                <h3>ARSHA</h3>
+                <p class="inner-box--first--text">
+                  A108 Adam Street
+                  <br />
+                  New York, NY 535022
+                  <br />
+                  United States
+                  <br />
+                  <br />
+                  <b>Phone:</b>
+                  +1 5589 55488 55
+                  <b>Email:</b>
+                  info@example.com
+                </p>
+              </div>
+              <!-- li 안에 a태그, 아이콘 추가 필요 -->
+              <div class="footer--top--second">
+                <h4>Useful Links</h4>
+                <ul class="footer--top--ul">
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>Home
+                  </li>
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>About us
+                  </li>
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>Services
+                  </li>
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>Terms of service
+                  </li>
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>Privacy policy
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer--top--third">
+                <h4>Our Services</h4>
+                <ul class="footer--top--ul">
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>Web Design
+                  </li>
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>Web Development
+                  </li>
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>Product Management
+                  </li>
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>Marketing
+                  </li>
+                  <li class="footer--top--li">
+                    <i class="fa-solid fa-angle-right"></i>Graphic Design
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer--top--fourth">
+                <h4>Our Social Networks</h4>
+                <p>
+                  Cras fermentum odio eu feugiat lide par naso tierra videa
+                  magna derita valies
+                </p>
+                <div class="footer--fourth--btns">
+                  <a href=""
+                    >Twitter
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href=""
+                    >Facebook
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href=""
+                    >Instagram
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href=""
+                    >Skype
+                    <i class="fa-brands fa-skype"></i>
+                  </a>
+                  <a href=""
+                    >Linkedin
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="body--footer--bottom">
+          <div class="footer--bottom--copyright">
+            © Copyright
+            <b>Arsha</b>
+            . All Rights Resserved
+          </div>
+          <div class="footer--bottom--credit">
+            Designed by
+            <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </footer>
+    </section>
   </body>
 </html>
