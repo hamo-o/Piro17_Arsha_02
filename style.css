@@ -48,7 +48,7 @@
 .team--title::after {
   content: "";
   position: absolute;
-  display: block;
+  display: block; 
   width: 40px;
   height: 3px;
   background: #47b2e4;
@@ -400,6 +400,32 @@ textarea:focus {
   font-family: "Jost", sans-serif;
   color: #37517e;
   margin-bottom: 20px;
+  width: 100%;
+  padding-bottom: 20px;
+  position: relative;
+
+}
+
+.contact--head::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.contact--head::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
 }
 
 .contact--text {
