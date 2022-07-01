@@ -844,6 +844,7 @@ textarea:focus {
   flex-direction: column;
   width: 100%;
   height: 220px;
+  margin: 0 50px;
 }
 
 .footer--top--first h3 {
@@ -886,6 +887,8 @@ textarea:focus {
   flex-direction: column;
   width: 100%;
   height: 220px;
+
+  margin: 0 50px;
 }
 
 .body--footer--top i {
@@ -918,6 +921,8 @@ h6 {
   flex-direction: column;
   width: 100%;
   height: 220px;
+
+  margin: 0 50px;
 }
 
 .inline-block {
@@ -1933,6 +1938,7 @@ h6 {
   flex-direction: column;
   width: 220px;
   height: 220px;
+  margin: 0 50px;
 }
 
 .footer--top--second a,
