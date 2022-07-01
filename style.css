@@ -497,8 +497,9 @@ body {
   #container--about {
     flex-direction: row;
     justify-content: center;
-    height: 800px;
+    height: auto;
     padding: 60px 0;
+    margin: 20px 0 60px 0;
   }
 
   #container--why {
@@ -528,8 +529,9 @@ body {
   #container--about {
     flex-direction: row;
     justify-content: center;
-    height: 600px;
+    height: auto;
     padding: 60px 0;
+    margin: 20px 0 60px 0;
   }
 
   #container--why {
@@ -559,8 +561,9 @@ body {
   #container--about {
     flex-direction: row;
     justify-content: center;
-    height: 424px;
+    height: auto;
     padding: 60px 0;
+    margin: 20px 0 60px 0;
   }
 
   #container--why {
@@ -1770,7 +1773,7 @@ screen의 width가 480px 이상 1024px 이하일 때 적용 */
 
 /*
 @media screen and (min-width: 1024px) {
-	
+
 }
 screen의 width가 1024px 이상일 때 적용
 */
@@ -1790,13 +1793,27 @@ h6 {
 }
 /* 위는 공통 */
 
+/* 
+Get Started 버튼
+아이콘 크기 */
 /****************** pricing *****************/
 .pricing {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
   padding: 60px 0;
 }
 
 .pricing-container {
-  width: 1320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 1320px;
+  height: 100%;
+
   margin: 0 110.5px;
   padding: 0 12px;
 }
@@ -1853,26 +1870,32 @@ h6 {
   justify-content: space-between;
   flex-wrap: wrap;
 
-  width: 1320px;
+  height: auto;
+  min-width: 960px;
 
   margin: 0 -12px;
   padding: 40px 0 0;
 }
 
 .pricing-contents--box {
-  width: 416px;
+  width: calc((100%) / 3);
   height: 100%;
 
   padding: 0 12px;
 }
 
-.pricing-contents--boxc {
+.pricing-contents--box1,
+.pricing-contents--box2,
+.pricing-contents--box3 {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
   background: #fff;
   height: 100%;
   border-top: 4px solid #fff;
   border-radius: 5px;
+}
+.pricing-contents--box2 {
+  border-top-color: #47b2e4;
 }
 
 .pricing-contents--plan {
@@ -1884,7 +1907,10 @@ h6 {
 
 .pricing-contents--price {
   display: block;
+  font-size: 0;
+}
 
+.pricing-contents--num {
   color: #37517e;
 
   font-size: 48px;
@@ -1894,6 +1920,8 @@ h6 {
 }
 
 .pricing-contents--dollar {
+  color: #37517e;
+
   font-size: 28px;
 
   position: relative;
@@ -1949,7 +1977,9 @@ h6 {
 
   display: inline-block;
 
-  padding: 12px 35px;
+  height: 50px;
+
+  padding: 16px 35px;
   border-radius: 50px;
   transition: none;
   font-size: 16px;
@@ -1957,6 +1987,8 @@ h6 {
   font-family: "Jost", sans-serif;
   transition: 0.3s;
   border: 1px solid #47b2e4;
+
+  text-align: center;
 }
 .pricing-content--btn:hover {
   background: #47b2e4;
@@ -1974,12 +2006,21 @@ h6 {
 /****************** questions *****************/
 
 .quest {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  vertical-align: middle;
   background: #f2f5f9;
   padding: 60px 0;
 }
 
 .quest-container {
-  width: 1320px;
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1320px;
+
   margin: 0 110.5px;
   padding: 0 12px;
 }
@@ -2037,6 +2078,12 @@ h6 {
   flex-wrap: wrap;
 
   padding: 0 100px;
+}
+
+.quest-contents--box {
+  width: 100%;
+
+  margin: 0 0 16px;
 }
 
 .quest-contents--box--item {

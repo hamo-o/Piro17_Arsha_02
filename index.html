@@ -44,7 +44,12 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://bootstrapmade.com/assets/img/logo.png"
+    />
+    <title>Arsha Bootstrap Template Demo</title>
   </head>
   <body>
     <!--처음 ~ about us 이전까지-->
@@ -149,7 +154,7 @@
           </ul>
         </div>
       </header>
-      <!--여기까지 1차 완료(위치 조정, class 이름 변경-->
+      여기까지 1차 완료(위치 조정, class 이름 변경
       <nav class="nav fixed-top hero">
         <div>
           <a class="nav__logo" href="index.html">arsha</a>
@@ -231,7 +236,7 @@
       </main>
     </section>
     <!-- about us ~ service 이전까지 -->
-
+    
     <section class="about--fontsize">
       <div id="container--about">
         <div id="about--titlebox">
@@ -382,8 +387,6 @@
         </div>
       </div>
     </section>
-    <!-- 서비스부터  팀까지-->
-
     <section>
       <div class="service--section">
         <div class="service--wrapper">
@@ -712,13 +715,13 @@
               Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
-          <div class="pricing-contents">
-            <div class="pricing-contents--box">
-              <div class="pricing-contents--boxc">
+          <ul class="pricing-contents">
+            <li class="pricing-contents--box">
+              <div class="pricing-contents--box1">
                 <h3 class="pricing-contents--plan">Free Plan</h3>
                 <h4 class="pricing-contents--price">
                   <span class="pricing-contents--dollar">$</span>
-                  0
+                  <span class="pricing-contents--num">0</span>
                   <span class="pricing-contents--per">per month</span>
                 </h4>
                 <ul class="pricing-content--list">
@@ -770,13 +773,13 @@
                   Get Started
                 </a>
               </div>
-            </div>
-            <div class="pricing-contents--box">
-              <div class="pricing-contents--boxc">
+            </li>
+            <li class="pricing-contents--box">
+              <div class="pricing-contents--box2">
                 <h3 class="pricing-contents--plan">Business Plan</h3>
                 <h4 class="pricing-contents--price">
                   <span class="pricing-contents--dollar">$</span>
-                  29
+                  <span class="pricing-contents--num">29</span>
                   <span class="pricing-contents--per">per month</span>
                 </h4>
                 <ul class="pricing-content--list">
@@ -828,13 +831,13 @@
                   Get Started
                 </a>
               </div>
-            </div>
-            <div class="pricing-contents--box">
-              <div class="pricing-contents--boxc">
+            </li>
+            <li class="pricing-contents--box">
+              <div class="pricing-contents--box3">
                 <h3 class="pricing-contents--plan">Developer Plan</h3>
                 <h4 class="pricing-contents--price">
                   <span class="pricing-contents--dollar">$</span>
-                  49
+                  <span class="pricing-contents--num">49</span>
                   <span class="pricing-contents--per">per month</span>
                 </h4>
                 <ul class="pricing-content--list">
@@ -886,8 +889,8 @@
                   Get Started
                 </a>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="quest">
@@ -911,23 +914,24 @@
                 <i class="quest-contents--box--help">
                   <span class="material-icons"> help_outline </span></i
                 >
-                <a href="" class="quest-contents--box--q">
-                  Non consectetur a erat nam at lectus urna duis?
-                  <i class="quest-contents--box--show"
-                    ><span class="material-icons"> expand_more </span></i
-                  >
-                  <i class="quest-contents--box--close"
-                    ><span class="material-icons"> expand_less </span></i
-                  >
-                </a>
-                <div class="quest-contents--box--content">
+                <details class="quest-contents--box--content">
+                  <summary href="" class="quest-contents--box--q">
+                    Non consectetur a erat nam at lectus urna duis?
+                    <i class="quest-contents--box--show"
+                      ><span class="material-icons"> expand_more </span></i
+                    >
+                    <i class="quest-contents--box--close"
+                      ><span class="material-icons"> expand_less </span></i
+                    >
+                  </summary>
+
                   <p class="quest-contents--box--text">
                     Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
                     volutpat lacus laoreet non curabitur gravida. Venenatis
                     lectus magna fringilla urna porttitor rhoncus dolor purus
                     non.
                   </p>
-                </div>
+                </details>
               </li>
               <li class="quest-contents--box--item">
                 <i class="quest-contents--box--help"
@@ -956,16 +960,16 @@
                 <i class="quest-contents--box--help"
                   ><span class="material-icons"> help_outline </span></i
                 >
-                <a href="" class="quest-contents--box--q">
-                  Dolor sit amet consectetur adipiscing elit?
-                  <i class="quest-contents--box--show"
-                    ><span class="material-icons"> expand_more </span></i
-                  >
-                  <i class="quest-contents--box--close"
-                    ><span class="material-icons"> expand_less </span></i
-                  >
-                </a>
-                <div class="quest-contents--box--content">
+                <details class="quest-contents--box--content">
+                  <summary href="" class="quest-contents--box--q">
+                    Dolor sit amet consectetur adipiscing elit?
+                    <i class="quest-contents--box--show"
+                      ><span class="material-icons"> expand_more </span></i
+                    >
+                    <i class="quest-contents--box--close"
+                      ><span class="material-icons"> expand_less </span></i
+                    >
+                  </summary>
                   <p class="quest-contents--box--text">
                     Eleifend mi in nulla posuere sollicitudin aliquam ultrices
                     sagittis orci. Faucibus pulvinar elementum integer enim. Sem
@@ -974,46 +978,48 @@
                     convallis tellus. Urna molestie at elementum eu facilisis
                     sed odio morbi quis
                   </p>
-                </div>
+                </details>
               </li>
               <li class="quest-contents--box--item">
                 <i class="quest-contents--box--help"
                   ><span class="material-icons"> help_outline </span></i
                 >
-                <a href="" class="quest-contents--box--q">
-                  Tempus quam pellentesque nec nam aliquam sem et tortor
-                  consequat?
-                  <i class="quest-contents--box--show"
-                    ><span class="material-icons"> expand_more </span></i
-                  >
-                  <i class="quest-contents--box--close"
-                    ><span class="material-icons"> expand_less </span></i
-                  >
-                </a>
-                <div class="quest-contents--box--content">
+                <details class="quest-contents--box--content">
+                  <summary href="" class="quest-contents--box--q">
+                    Tempus quam pellentesque nec nam aliquam sem et tortor
+                    consequat?
+                    <i class="quest-contents--box--show"
+                      ><span class="material-icons"> expand_more </span></i
+                    >
+                    <i class="quest-contents--box--close"
+                      ><span class="material-icons"> expand_less </span></i
+                    >
+                  </summary>
+
                   <p class="quest-contents--box--text">
                     Molestie a iaculis at erat pellentesque adipiscing commodo.
                     Dignissim suspendisse in est ante in. Nunc vel risus commodo
                     viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
                     bibendum est. Purus gravida quis blandit turpis cursus in.
                   </p>
-                </div>
+                </details>
               </li>
               <li class="quest-contents--box--item">
                 <i class="quest-contents--box--help"
                   ><span class="material-icons"> help_outline </span></i
                 >
-                <a href="" class="quest-contents--box--q">
-                  Tortor vitae purus faucibus ornare. Varius vel pharetra vel
-                  turpis nunc eget lorem dolor?
-                  <i class="quest-contents--box--show"
-                    ><span class="material-icons"> expand_more </span></i
-                  >
-                  <i class="quest-contents--box--close"
-                    ><span class="material-icons"> expand_less </span></i
-                  >
-                </a>
-                <div class="quest-contents--box--content">
+                <details class="quest-contents--box--content">
+                  <summary href="" class="quest-contents--box--q">
+                    Tortor vitae purus faucibus ornare. Varius vel pharetra vel
+                    turpis nunc eget lorem dolor?
+                    <i class="quest-contents--box--show"
+                      ><span class="material-icons"> expand_more </span></i
+                    >
+                    <i class="quest-contents--box--close"
+                      ><span class="material-icons"> expand_less </span></i
+                    >
+                  </summary>
+
                   <p class="quest-contents--box--text">
                     Laoreet sit amet cursus sit amet dictum sit amet justo.
                     Mauris vitae ultricies leo integer malesuada nunc vel.
@@ -1021,7 +1027,7 @@
                     eget lorem dolor sed. Ut venenatis tellus in metus vulputate
                     eu scelerisque.
                   </p>
-                </div>
+                </details>
               </li>
             </ul>
           </div>
@@ -1029,7 +1035,7 @@
       </div>
     </section>
 
-    <!-- concat ~ 마지막-->
+    <!-- concat ~ 마지막 -->
     <section class="body--contact--to-end">
       <div class="body--contact--align">
         <div class="contact--section-title">
