@@ -1,5 +1,5 @@
 @import "./reset.css";
-
+/* hi */
 .service--section,
 .team--section {
   padding: 60px 0;
@@ -1462,7 +1462,7 @@ screen의 width가 480px 이상 1024px 이하일 때 적용 */
 
 /*
 @media screen and (min-width: 1024px) {
-	
+
 }
 screen의 width가 1024px 이상일 때 적용
 */
