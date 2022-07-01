@@ -51,7 +51,7 @@
     <!--BEM에서는 class 선택자만 쓰기-->
     <!--이름은 목적을 나타내는 걸로 쓰기-->
     <section>
-      <header class="header">
+      <header class="header fixed-top">
         <div class="header__logo">
           <a href="http://bootstrapmade.com/" rel="home">
             <img
@@ -64,11 +64,10 @@
             </strong>
           </a>
         </div>
-        <div class="preview-devices">
+        <div class="header__preview-devices">
           <ul>
             <li
-              class="preview-test preview-devices-active"
-              id="preview-test-desktop"
+              class="header__preview-devices__active"
               title="Desktop preview"
             >
               <a href>
@@ -76,8 +75,6 @@
               </a>
             </li>
             <li
-              class="preview-test"
-              id="preview-test-tablet"
               title="Tablet preview"
             >
               <a href>
@@ -88,8 +85,6 @@
               </a>
             </li>
             <li
-              class="preview-test"
-              id="preview-test-mobile"
               title="Mobile preview"
             >
               <a href>
@@ -101,7 +96,7 @@
             </li>
           </ul>
         </div>
-        <div class="navigate">
+        <div class="header__navigate">
           <ul>
             <li>
               <a
@@ -125,17 +120,17 @@
             </li>
             <li>
               <a
-                class="download"
+                class="header__download"
                 href="http://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/#download"
                 title="Download the Arsha Template"
               >
-                <i class="fa-solid fa-download icon" fill="currentColor"> </i>
+                <i class="fa-solid fa-download" fill="currentColor"> </i>
                 <span>Free Download</span>
               </a>
             </li>
             <li>
               <a
-                href="http://bootstrapmade.com/demo/knightOne"
+                href="https://bootstrapmade.com/demo/KnightOne/"
                 target="_top"
                 title="Previous Template: knightOne"
               >
@@ -156,12 +151,12 @@
       </header>
       <!--여기까지 1차 완료(위치 조정, class 이름 변경-->
       <nav class="nav fixed-top hero">
-        <h1 class="logo">
-          <a href="index.html">arsha</a>
-          <div class="navbar">
+        <div>
+          <a class="nav__logo" href="index.html">arsha</a>
+          <div class="nav__navbar">
             <ul>
               <li>
-                <a href="#">home</a>
+                <a href="#">Home</a>
               </li>
               <li>
                 <a href="#">About</a>
@@ -175,19 +170,65 @@
               <li>
                 <a href="#">Team</a>
               </li>
-              <li>
-                <a href="#">Drop Down</a>
+              <li class="nav__dropdown">
+                <a href="#">Drop Down
+                  <i class="fa-solid fa-angle-down"></i></a>
               </li>
               <li>
                 <a href="#">Contact</a>
               </li>
-              <li>
+              <li class="nav__navbar__top-start-btn">
                 <a href="#">Get Started</a>
               </li>
             </ul>
           </div>
-        </h1>
+        </div>
       </nav>
+      <main class="main">
+        <div class="main__box">
+          <div class="main__box__text">
+            <h1>Better Solution For Your Business</h1>
+            <p>
+              We are team of talented designers making websites with Bootstrap
+            </p>
+            <div class="main-button">
+              <a class="start-button" href="#"> Get Started </a>
+              <a class="video-button" href="#">
+                <i
+                  class="fa-regular fa-circle-play fa-2x"
+                ></i>
+                <span>Watch Video</span>
+              </a>
+            </div>
+          </div>
+          <div class="main__box__animation">
+            <img src="./hero-img.png" class="main-image">
+          </div>
+          </div>
+        </div>
+        <div class="clients">
+          <div>
+            <div>
+              <img src="./client-1.png">
+            </div>
+            <div>
+              <img src="./client-2.png">
+            </div>
+            <div>
+              <img src="./client-3.png">
+            </div>
+            <div>
+              <img src="./client-4.png">
+            </div>
+            <div>
+              <img src="./client-5.png">
+            </div>
+            <div>
+              <img src="./client-6.png">
+            </div>
+          </div>
+        </div>
+      </main>
     </section>
     <!-- about us ~ service 이전까지 -->
 
