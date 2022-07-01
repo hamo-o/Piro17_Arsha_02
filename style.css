@@ -1483,7 +1483,6 @@ h6 {
 /* 위는 공통 */
 
 /* 
-달러표시와 가격 사이 간격,
 Get Started 버튼
 아이콘 크기 */
 /****************** pricing *****************/
@@ -1574,13 +1573,18 @@ Get Started 버튼
   padding: 0 12px;
 }
 
-.pricing-contents--boxc {
+.pricing-contents--box1,
+.pricing-contents--box2,
+.pricing-contents--box3 {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
   background: #fff;
   height: 100%;
   border-top: 4px solid #fff;
   border-radius: 5px;
+}
+.pricing-contents--box2 {
+  border-top-color: #47b2e4;
 }
 
 .pricing-contents--plan {
@@ -1592,7 +1596,10 @@ Get Started 버튼
 
 .pricing-contents--price {
   display: block;
+  font-size: 0;
+}
 
+.pricing-contents--num {
   color: #37517e;
 
   font-size: 48px;
@@ -1602,6 +1609,8 @@ Get Started 버튼
 }
 
 .pricing-contents--dollar {
+  color: #37517e;
+
   font-size: 28px;
 
   position: relative;
