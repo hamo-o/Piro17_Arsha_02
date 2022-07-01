@@ -2,98 +2,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Gantari:wght@400;500;700;800&family=Open+Sans:wght@300&display=swap");
 
 @media screen and (max-width: 480px) {
-	#container--about {
+  #container--about {
     flex-direction: row;
     justify-content: center;
     height: 800px;
     padding: 60px 0;
   }
-  
+
   #container--why {
     display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap-reverse;
-  height: 1500px;
-  padding: 60px 0;
-  background-color: #f3f5fa;
-  position: relative;
-}
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    height: 1500px;
+    padding: 60px 0;
+    background-color: #f3f5fa;
+    position: relative;
+  }
 
-#container--skills {
-  height: 1200px;
-  padding : 60px 0px;
-  display: flex;
-flex-direction: row;
-justify-content: center;
-flex-wrap: wrap;
-background-color: #ffffff;
-}
-
+  #container--skills {
+    height: 1200px;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+  }
 }
 /* screen의 width가 480px 이하일 때 적용 */
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-	#container--about {
+  #container--about {
     flex-direction: row;
     justify-content: center;
     height: 600px;
     padding: 60px 0;
   }
-  
+
   #container--why {
     display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap-reverse;
-  height: 1200px;
-  padding: 60px 0;
-  background-color: #f3f5fa;
-  position: relative;
-}
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    height: 1200px;
+    padding: 60px 0;
+    background-color: #f3f5fa;
+    position: relative;
+  }
 
-#container--skills {
-  height: 1000px;
-  padding : 60px 0px;
-  display: flex;
-flex-direction: row;
-justify-content: center;
-flex-wrap: wrap;
-background-color: #ffffff;
-}
-
+  #container--skills {
+    height: 1000px;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+  }
 }
 /* screen의 width가 480px 이상 1024px 이하일 때 적용 */
 
 @media screen and (min-width: 1024px) {
-	#container--about {
+  #container--about {
     flex-direction: row;
     justify-content: center;
     height: 424px;
     padding: 60px 0;
   }
-  
+
   #container--why {
     display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap-reverse;
-  height: 800px;
-  padding: 60px 0;
-  background-color: #f3f5fa;
-  position: relative;
-}
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    height: 800px;
+    padding: 60px 0;
+    background-color: #f3f5fa;
+    position: relative;
+  }
 
-#container--skills {
-  height: 557;
-  padding : 60px 0px;
-  display: flex;
-flex-direction: row;
-justify-content: center;
-flex-wrap: wrap;
-background-color: #ffffff;
-}
-
+  #container--skills {
+    height: 557;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+  }
 }
 /* screen의 width가 1024px 이상일 때 적용 */
 
@@ -222,9 +219,9 @@ html {
 }
 
 #container--why--left {
-    display: inline-block;
-    width: 623px;
-    height: 700px;
+  display: inline-block;
+  width: 623px;
+  height: 700px;
 }
 
 #why--description {
@@ -285,7 +282,7 @@ html {
 }
 
 a {
-    position: relative;
+  position: relative;
 }
 
 .why--questions--more {
@@ -295,11 +292,11 @@ a {
   height: 90px;
   padding: 20px;
   border-radius: 3px;
-  margin-top: 20px;"
+  margin-top: 20px;
 }
 
 #why--questions--angle {
-width: 24px;
+  width: 24px;
   display: inline-block;
   height: 24px;
   background-image: url(./angle-down.png);
@@ -312,39 +309,39 @@ width: 24px;
 }
 
 #why--picture {
-    width: 500px;
-    padding: 0 12px;
-    margin-top: 60px;
-    background-image: url(./why-us.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+  width: 500px;
+  padding: 0 12px;
+  margin-top: 60px;
+  background-image: url(./why-us.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #skills--picture {
-    display: inline-block;
-    width: 480px;
-    height: 430px;
-    margin-top: 30px;
-    background-image: url(./skills.png);
-    background-size: 456px 280px;
-    background-repeat: no-repeat;
+  display: inline-block;
+  width: 480px;
+  height: 430px;
+  margin-top: 30px;
+  background-image: url(./skills.png);
+  background-size: 456px 280px;
+  background-repeat: no-repeat;
 }
 
 #container--skills-right {
-    display: inline-block;
-    width: 480px;
-    height: 427px;
-    padding: 0 12px;
+  display: inline-block;
+  width: 480px;
+  height: 427px;
+  padding: 0 12px;
 }
 
 #skills--text--bold {
-    width: 456px;
-    height: 115px;
-    margin: 0 0 8px;
+  width: 456px;
+  height: 115px;
+  margin: 0 0 8px;
 }
 
 #skills--text--bold span {
-    font-family: "Gantari", sans-serif;
+  font-family: "Gantari", sans-serif;
   font-size: 3.5rem;
   font-weight: bolder;
   line-height: 3.6rem;
@@ -352,13 +349,13 @@ width: 24px;
 }
 
 #skills--text--nor {
-    width: 456px;
-    height: 48px;
-    margin: 0 0 16px;
+  width: 456px;
+  height: 48px;
+  margin: 0 0 16px;
 }
 
 #skills--text--nor span {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
@@ -366,92 +363,100 @@ width: 24px;
 }
 
 .skills--progress {
-    display: inline-block;
-    width: 456px;
-    height: 18px;
-    font-family: "Gantari", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    font-weight: 700;
-    color: #37517e;
-    margin-bottom: 6px;
+  display: inline-block;
+  width: 456px;
+  height: 18px;
+  font-family: "Gantari", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+  color: #37517e;
+  margin-bottom: 6px;
 }
 
 .skills--progress--room {
-    width: 456px;
-    height: 60px;
-    position: relative;
+  width: 456px;
+  height: 60px;
+  position: relative;
 }
 
 .skills--progress--background {
-    width: 456px;
-    border-bottom: 10px solid #e8edf5;
-    position: relative;
+  width: 456px;
+  border-bottom: 10px solid #e8edf5;
+  position: relative;
 }
 
 @keyframes stack--html {
-  0% { width: 0%;
+  0% {
+    width: 0%;
   }
-  100% { width: 100%;
+  100% {
+    width: 100%;
   }
 }
 @keyframes stack--css {
-  0% { width: 0%;
+  0% {
+    width: 0%;
   }
-  100% { width: 90%;
+  100% {
+    width: 90%;
   }
 }
 @keyframes stack--java {
-  0% { width: 0%;
+  0% {
+    width: 0%;
   }
-  100% { width: 75%;
+  100% {
+    width: 75%;
   }
 }
 @keyframes stack--ps {
-  0% { width: 0%;
+  0% {
+    width: 0%;
   }
-  100% { width: 55%;
+  100% {
+    width: 55%;
   }
 }
 
 #skills--progress--html {
-    width: 100%;
-    border-bottom: 10px solid #4668a2;
-    position: absolute;
-    animation: stack--html 1s 1;
+  width: 100%;
+  border-bottom: 10px solid #4668a2;
+  position: absolute;
+  animation: stack--html 1s 1;
 }
 
 #skills--progress--css {
-    width: 90%;
-    border-bottom: 10px solid #4668a2;
-    position: absolute;
-    animation: stack--css 1s 1;
+  width: 90%;
+  border-bottom: 10px solid #4668a2;
+  position: absolute;
+  animation: stack--css 1s 1;
 }
 
 #skills--progress--java {
-    width: 75%;
-    border-bottom: 10px solid #4668a2;
-    position: absolute;
-    animation: stack--java 1s 1;
+  width: 75%;
+  border-bottom: 10px solid #4668a2;
+  position: absolute;
+  animation: stack--java 1s 1;
 }
 
 #skills--progress--ps {
-    width: 55%;
-    border-bottom: 10px solid #4668a2;
-    position: absolute;
-    animation: stack--ps 1s 1;
+  width: 55%;
+  border-bottom: 10px solid #4668a2;
+  position: absolute;
+  animation: stack--ps 1s 1;
 }
 
 .skills--percentage {
-    display: inline-block;
-    width: 30px;
-    height: 18px;
-    font-family: "Gantari", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    font-weight: 700;
-    color: #37517e;
-    position: absolute;
-    top:0;
-    right:0;
+  display: inline-block;
+  width: 30px;
+  height: 18px;
+  font-family: "Gantari", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+  color: #37517e;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
