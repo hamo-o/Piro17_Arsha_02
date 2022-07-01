@@ -21,74 +21,90 @@
     <!-- pricing ~ fre-->
 
     <section></section>
+
     <!-- concat ~ 마지막-->
-    <section class="body--contact">
-      <div class="contact--section-title">
-        <h2 class="contact--Head">
-          Contact
-        </h2>
-        <p class="contact--text">
-          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
-        </p>
+    <section class="body--contact--to-end">
+      <div class="body--contact--align">
+        <div class="contact--section-title">
+          <h2 class="contact--head">
+            Contact
+          </h2>
+          <p class="contact--text">
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+
+        <div class="contact--flexbox">
+          <div class="info--outer-box">
+            <div class="contact--flexbox--info">
+              <div class="contact--flexbox--location">
+                <i class="fa-solid fa-location-dot">
+                  <div class="contact--icon--circle"></div>
+                </i>
+                <div class="contact--flexbox--text">
+                  <h4 id="contact--title--location">Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="contact--flexbox--email">
+                <i class="fa-regular fa-envelope">
+                  <div class="contact--icon--circle"></div>
+                </i>
+                <div class="contact--flexbox--text">
+                  <h4 id="contact--title--email">Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+              <div class="contact--flexbox--phone">
+                <i class="fa-solid fa-mobile-button">
+                  <div class="contact--icon--circle"></div>
+                </i>
+                <div class="contact--flexbox--text">
+                  <h4 id="contact--title--phone">Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+              </div>
+              <iframe class="contact--flexbox--iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" 
+              style="border:0; width: 100%; height: 290px;" allowfullscreen=""></iframe>
+            </div>
+
+            <form action="forms/contact.php" method="post" role="form" class="contact--flexbox--email-form">
+              <div class="contact--emil-form--section">
+                <div class="contact--email-form--left"> 
+                  <label class="email-form--text" for="name">Your Name</label>
+                  <input type="text" name="name" class="contact--email-form--input" id="emial-form--name" required="">
+                </div>
+                
+                <div class="contact--email-form--right"> 
+                  <label class="email-form--text" for="name">Your Email</label> 
+                  <input type="email" class="contact--email-form--input" name="email" id="email-form--email" required="">
+                </div>
+              </div>
+              
+              <div class="contact--emil-form--section"> 
+                <label class="email-form--text" for="name">Subject</label> 
+                <input type="text" class="contact--email-form--input" name="subject" id="email-form--subject" required="">
+              </div>
+              
+              <div class="contact--emil-form--section"> 
+                <label class="email-form--text" for="name">Message</label>
+                <textarea class="contact--email-form--input" name="message" rows="10" required="">
+                </textarea>
+              </div>
+              
+              <!-- <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>  -->
+              
+              <div class="contact--email-form--btn">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-
-      <div class="contact--flexbox">
-        <div class="contact--flexbox--info">
-          <div class="contact--flexbox--address">
-            <i class="fa-regular fa-location-dot"></i>
-            <h4 id="contact--address--title">Location:</h4>
-            <p id="contact--address--text">A108 Adam Street, New York, NY 535022</p>
-          </div>
-          <div class="contact--flexbox--email">
-            <i class="fa-regular fa-envelope"></i>
-            <h4 id="contact--email--title">Email:</h4>
-            <p id="contact--email--text">info@example.com</p>
-          </div>
-          <div class="contact--flexbox--phone">
-            <i class="fa-regular fa-mobile-button"></i>
-            <h4 id="contact--phone--title">Phone:</h4>
-            <p id="contact--phone--text">+1 5589 55488 55s</p>
-          </div>
-          <iframe class="contact--flexbox--iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" 
-          style="border:0; width: 100%; height: 290px;" allowfullscreen=""></iframe>
-        </div>
-
-      <form action="forms/contact.php" method="post" role="form" class="contact--flexbox--email-form">
-        <div class="contact--emil-form--section">
-          <div class="contact--email-form--left"> 
-            <label class="email-form--text" for="name">Your Name</label>
-            <input type="text" name="name" class="contact--email-form--input" id="emial-form--name" required="">
-          </div>
-          
-          <div class="contact--email-form--right"> 
-            <label class="email-form--text" for="name">Your Email</label> 
-            <input type="email" class="contact--email-form--input" name="email" id="email-form--email" required="">
-          </div>
-        </div>
-        
-        <div class="contact--emil-form--section"> 
-          <label class="email-form--text" for="name">Subject</label> 
-          <input type="text" class="contact--email-form--input" name="subject" id="email-form--subject" required="">
-        </div>
-        
-        <div class="contact--emil-form--section"> 
-          <label class="email-form--text" for="name">Message</label>
-          <textarea class="contact--email-form--input" name="message" rows="10" required="">
-          </textarea>
-        </div>
-        
-        <!-- <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>  -->
-        
-        <div class="contact--email-form--btn">
-          <button type="submit">Send Message</button>
-        </div>
-      </form>
-    </div>
-
 
     <footer class="body--footer">
       <div class="body--footer--newsletter">
@@ -116,7 +132,7 @@
                 <br>
                 <b>Phone:</b>
                 +1 5589 55488 55
-                <b>Email:</b>
+                <b>Email:</b> 
                 info@example.com
               </p>
             </div>
@@ -124,22 +140,32 @@
             <div class="footer--top--second">
               <h4 class="footer--top--h4">Useful Links</h4>
               <ul class="footer--top--ul">
-                <li class="footer--top--li">Home</li>
-                <li class="footer--top--li">About us</li>
-                <li class="footer--top--li">Services</li>
-                <li class="footer--top--li">Terms of service</li>
-                <li class="footer--top--li">Privacy policy</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>Home</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>About us</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>Services</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>Terms of service</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>Privacy policy</li>
               </ul>
             </div>
 
             <div class="footer--top--third">
               <h4 class="footer--top--h4">Our Services</h4>
               <ul class="footer--top--ul">
-                <li class="footer--top--li">Web Design</li>
-                <li class="footer--top--li">Web Development</li>
-                <li class="footer--top--li">Product Management</li>
-                <li class="footer--top--li">Marketing</li>
-                <li class="footer--top--li">Graphic Design</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>Web Design</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>Web Development</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>Product Management</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>Marketing</li>
+                <li class="footer--top--li">
+                  <i class="fa-solid fa-angle-right"></i>Graphic Design</li>
               </ul>
             </div>
 
@@ -147,11 +173,21 @@
               <h4 class="footer--top--h4">Our Social Networks</h4>
               <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
               <div class="footer--fourth--btns">
-                <a href="">Twitter</a>
-                <a href="">Facebook</a>
-                <a href="">Instagram</a>
-                <a href="">Skype</a>
-                <a href="">Linkedin</a>
+                <a href="">Twitter
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">Facebook
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="">Instagram
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">Skype
+                  <i class="fa-brands fa-skype"></i>
+                </a>
+                <a href="">Linkedin
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
               </div>
             </div>
           </div>
