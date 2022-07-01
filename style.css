@@ -85,7 +85,7 @@ body {
   margin-left: 20%;
 }
 
-.preview-devices ul {
+.header__preview-devices ul {
   margin: 0 0 0 20px;
   padding: 0;
   list-style: none;
@@ -93,7 +93,7 @@ body {
   display: flex;
   align-items: center;
 }
-.preview-devices a {
+.header__preview-devices a {
   transition: 0.3s;
   border-bottom: 2px solid #fff;
   color: #1e5f8d;
@@ -101,35 +101,35 @@ body {
   padding: 5px 10px;
   margin: 0 5px;
 }
-.preview-devices a:hover {
+.header__preview-devices a:hover {
   color: #00a6eb;
 }
-.preview-devices .preview-devices-active a {
+.header__preview-devices .header__preview-devices__active a {
   border-bottom: 2px solid #00a6eb;
   color: #00a6eb;
 }
-.navigate {
+.header__navigate {
   margin-left: auto;
 }
-.navigate .icon-chevron-left,
-.navigate .icon-chevron-right {
+.header__navigate .icon-chevron-left,
+.header__navigate .icon-chevron-right {
   width: 36px;
   height: 36px;
 }
-.navigate ul {
+.header__navigate ul {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
   align-items: center;
 }
-.navigate li {
+.header__navigate li {
   margin: 0 0 0 5px;
 }
-.navigate li:last-child {
+.header__navigate li:last-child {
   margin-right: 0;
 }
-.navigate a {
+.header__navigate a {
   transition: 0.3s;
   padding: 0 10px;
   border: solid 1px #dfdfdf;
@@ -141,31 +141,31 @@ body {
   justify-content: center;
   text-decoration: none;
 }
-.navigate a:hover {
+.header__navigate a:hover {
   border: solid 1px #00a6eb;
   color: #00a6eb;
 }
-.navigate a.download {
+.header__navigate a.header__download {
   background: #00a6eb;
   border: solid 1px #00a6eb;
   color: #fff;
   font-size: 15px;
   padding: 0 16px;
 }
-.navigate a.download span {
+.header__navigate a.header__download span {
   padding-left: 4px;
 }
-.navigate a.download:hover {
+.header__navigate a.header__download:hover {
   background: #00b4ff;
   border-color: #00b4ff;
 }
-.navigate a.first-latest {
+.header__navigate a.first-latest {
   background: #e6e6e6;
   border: 1px solid #e6e6e6;
   color: #fff;
 }
 @media (max-width: 1024px) {
-  .preview-devices {
+  .header__preview-devices {
     display: none;
   }
 }
@@ -173,18 +173,18 @@ body {
   .logo {
     display: none;
   }
-  .navigate {
+  .header__navigate {
     margin: 0;
     width: calc(100% - 4px);
   }
-  .navigate ul {
+  .header__navigate ul {
     justify-content: center;
   }
-  .navigate li {
+  .header__navigate li {
     flex-grow: 1;
     flex-basis: 0;
   }
-  .navigate a.download span {
+  .header__navigate a.header__download span {
     display: none;
   }
 }
@@ -204,12 +204,6 @@ body {
   transition: 0.5s;
 }
 
-.preview-desktop {
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .nav {
   transition: all 0.5s;
   padding: 15px 0;
@@ -219,17 +213,17 @@ body {
   opacity: 0.9;
 }
 
-.navbar a:hover {
+.nav__navbar a:hover {
   color: #00a6eb;
 }
 
-.top-start-btn {
+.nav__navbar__top-start-btn {
   border-radius: 50px;
   border: 2px solid #47b2e4;
   padding: 8px 20px;
 }
 
-.top-start-btn:hover {
+.nav__navbar__top-start-btn:hover {
   border-radius: 50px;
   display: inline-block;
   transition: 0.5s;
@@ -237,7 +231,7 @@ body {
   background: #47b2e4;
 }
 
-.top-start-btn a:hover {
+.nav__navbar__top-start-btn a:hover {
   color: white;
 }
 
@@ -245,7 +239,7 @@ body {
   color: #47b2e4;
 }
 
-.logo {
+.nav__logo {
   font-size: 30px;
   margin-left: 60px;
   padding: 0;
@@ -266,7 +260,7 @@ body {
   background: #37517e;
 }
 
-.navbar {
+.nav__navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -277,21 +271,22 @@ body {
   float: right;
 }
 
-.navbar ul {
+.nav__navbar ul {
   margin: 0;
   padding: 0;
   width: 1200px;
 }
 
-.navbar li {
+.nav__navbar li {
   display: inline-block;
   font-size: 15px;
 }
 
-.navbar a {
+.nav__navbar a {
   text-decoration-line: none;
   color: white;
   margin: 0 10px;
+  transition: 0.5s;
 }
 
 .main {
@@ -300,14 +295,14 @@ body {
   margin-top: 65px;
 }
 
-.main-box {
+.main__box {
   margin-top: 65px;
   margin-left: 70px;
   margin-right: 70px;
   height: 450px;
 }
 
-.main-text {
+.main__box__text {
   margin-top: 150px;
   height: 100%;
   width: 45%;
@@ -315,19 +310,19 @@ body {
   font-family: "Jost", sans-serif;
 }
 
-.main-text h1 {
+.main__box__text h1 {
   font-size: 48px;
   color: #fff;
   line-height: 56px;
 }
 
-.main-text p {
+.main__box__text p {
   color: #ffffff99;
   font-size: 21.5px;
   margin-bottom: 50px;
 }
 
-.main-animation {
+.main__box__animation {
   margin-top: 130px;
   height: 100%;
   width: 45%;
