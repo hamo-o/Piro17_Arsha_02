@@ -22,12 +22,156 @@
       src="https://kit.fontawesome.com/c1be11131c.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/05a54db67a.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Document</title>
   </head>
   <body>
     <!--처음 ~ about us 이전까지-->
-
-    <section></section>
+    <!--BEM에서는 class 선택자만 쓰기-->
+    <!--이름은 목적을 나타내는 걸로 쓰기-->
+    <section>
+      <header class="header">
+        <div class="header__logo">
+          <a href="http://bootstrapmade.com/" rel="home">
+            <img
+              alt="BootstrapMade"
+              src="https://bootstrapmade.com/assets/img/logo.png"
+            />
+            <strong>
+              Bootstrap
+              <span>MADE</span>
+            </strong>
+          </a>
+        </div>
+        <div class="preview-devices">
+          <ul>
+            <li
+              class="preview-test preview-devices-active"
+              id="preview-test-desktop"
+              title="Desktop preview"
+            >
+              <a href>
+                <i class="fa-solid fa-desktop icon" fill="currnetColor"></i>
+              </a>
+            </li>
+            <li
+              class="preview-test"
+              id="preview-test-tablet"
+              title="Tablet preview"
+            >
+              <a href>
+                <i
+                  class="fa-solid fa-tablet-screen-button icon"
+                  fill="currentColor"
+                ></i>
+              </a>
+            </li>
+            <li
+              class="preview-test"
+              id="preview-test-mobile"
+              title="Mobile preview"
+            >
+              <a href>
+                <i
+                  class="fa-solid fa-mobile-screen-button icon"
+                  fill="currentColor"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="navigate">
+          <ul>
+            <li>
+              <a
+                href="http://bootstrapmade.com/demo/tamplates/Arsha/"
+                target="_top"
+                title="Hide the demo bar"
+              >
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square icon"
+                  fill="currentColor"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/"
+                title="Arsha Template Home Page"
+              >
+                <i class="fa-solid fa-house-user icon" fill="currentColor"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="download"
+                href="http://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/#download"
+                title="Download the Arsha Template"
+              >
+                <i class="fa-solid fa-download icon" fill="currentColor"> </i>
+                <span>Free Download</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://bootstrapmade.com/demo/knightOne"
+                target="_top"
+                title="Previous Template: knightOne"
+              >
+                <i class="fa-solid fa-angle-left icon" fill="currentColor"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://bootstrapmade.com/demo/Gp/"
+                target="_top"
+                title="Next Template: Gp"
+              >
+                <i class="fa-solid fa-angle-right icon" fill="currentColor"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!--여기까지 1차 완료(위치 조정, class 이름 변경-->
+      <nav class="nav fixed-top hero">
+        <h1 class="logo">
+          <a href="index.html">arsha</a>
+          <div class="navbar">
+            <ul>
+              <li>
+                <a href="#">home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">service</a>
+              </li>
+              <li>
+                <a href="#">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">Team</a>
+              </li>
+              <li>
+                <a href="#">Drop Down</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Get Started</a>
+              </li>
+            </ul>
+          </div>
+        </h1>
+      </nav>
+    </section>
     <!-- about us ~ service 이전까지 -->
     <section></section>
     <!-- 서비스부터  팀까지-->
