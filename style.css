@@ -1,5 +1,5 @@
 @import "./reset.css";
-/* hi */
+
 .service--section,
 .team--section {
   padding: 60px 0;
@@ -1482,13 +1482,22 @@ h6 {
 }
 /* 위는 공통 */
 
+.all-content {
+  display: flex;
+  flex-direction: column;
+}
+
 /****************** pricing *****************/
 .pricing {
+  display: flex;
+
   padding: 60px 0;
 }
 
 .pricing-container {
-  width: 1320px;
+  display: flex;
+  flex-direction: column;
+
   margin: 0 110.5px;
   padding: 0 12px;
 }
@@ -1545,9 +1554,10 @@ h6 {
   justify-content: space-between;
   flex-wrap: wrap;
 
-  width: 1320px;
+  height: 100%;
 
   margin: 0 -12px;
+
   padding: 40px 0 0;
 }
 
@@ -1666,12 +1676,17 @@ h6 {
 /****************** questions *****************/
 
 .quest {
+  width: 100%;
+
+  vertical-align: middle;
   background: #f2f5f9;
   padding: 60px 0;
 }
 
 .quest-container {
-  width: 1320px;
+  display: flex;
+  flex-direction: column;
+
   margin: 0 110.5px;
   padding: 0 12px;
 }
@@ -1729,6 +1744,12 @@ h6 {
   flex-wrap: wrap;
 
   padding: 0 100px;
+}
+
+.quest-contents--box {
+  width: 100%;
+
+  margin: 0 0 16px;
 }
 
 .quest-contents--box--item {
