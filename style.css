@@ -387,13 +387,13 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 90%;
   height: 126.398px;
   padding-bottom: 30px;
 }
 
 .contact--head {
-  /* text-align: center; */
   text-align: center;
   font-size: 32px;
   font-weight: 900;
@@ -405,7 +405,6 @@ textarea:focus {
 
 .contact--text {
   text-align: center;
-  margin: 0;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
@@ -664,6 +663,7 @@ textarea:focus {
   text-align: center;
   font-size: 16px;
   color: #444444;
+  margin: 15px 0;
 }
 
 .footer--newsletter--center form {
@@ -751,6 +751,7 @@ textarea:focus {
   font-size: 13px;
   line-height: 150%;
   width: 216px;
+  margin-bottom: 15px;
 }
 
 .footer--top--inner-box strong{
@@ -828,4 +829,24 @@ textarea:focus {
 
 .footer--bottom--credit a{
   color: #47B2E4;
+}
+
+.footer--fourth--btns{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer--fourth--btns i{
+  color: white;
+  background-color: #47b2e4;
+  font-size: 15px;
+  float: left;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
