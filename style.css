@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import "./reset.css";
 
 .service--section,
@@ -318,10 +317,9 @@
 }
 .team--social a:hover i {
   color: #fff;
-=======
-@import "reset.css";
+}
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -331,11 +329,11 @@ ul {
 }
 
 button {
-  background: inherit; 
-  border:none; 
-  border-radius:0;
-  padding:0; 
-  cursor:pointer;
+  background: inherit;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
 }
 
 a {
@@ -352,31 +350,30 @@ a:visited {
 
 input {
   -webkit-appearance: none; /* Safari and Chrome */
-     -moz-appearance: none; /* Firefox */
-          appearance: none;
+  -moz-appearance: none; /* Firefox */
+  appearance: none;
 }
 
-input[type='number']::-webkit-inner-spin-button,
-input[type='number']::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-      -moz-appearance: none;
-        appearance: none;
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 input:focus {
   outline: none;
 }
 
-textarea:focus{
+textarea:focus {
   outline: none;
 }
 
-
-.body--conatact--to-end{
+.body--conatact--to-end {
   display: flex;
 }
 
-.body--contact--align{
+.body--contact--align {
   width: 100%;
   height: px;
   vertical-align: middle;
@@ -385,15 +382,15 @@ textarea:focus{
   margin: 0 auto;
 }
 
-.contact--section-title{
+.contact--section-title {
   width: 1116px;
-  height:126.398px;
+  height: 126.398px;
   padding-bottom: 30px;
   text-align: center;
   margin: 0 auto;
 }
 
-.contact--head{
+.contact--head {
   /* text-align: center; */
   font-size: 32px;
   font-weight: bold;
@@ -401,22 +398,22 @@ textarea:focus{
   color: #37517e;
 }
 
-.contact--text{
+.contact--text {
   text-align: center;
   margin: 0;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
-.contact--flexbox{
+.contact--flexbox {
   display: flex;
   width: 1116px;
-  height:600px;
+  height: 600px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.info--outer-box{
+.info--outer-box {
   display: flex;
   width: 1116px;
   height: 600px;
@@ -424,26 +421,26 @@ textarea:focus{
   justify-content: space-between;
 }
 
-.contact--flexbox--info{
+.contact--flexbox--info {
   border-top: 3px solid #47b2e4;
-    border-bottom: 3px solid #47b2e4;
-    padding: 30px;
-    background: #fff;
-    width: 490px;
-    height: 600px;
-    box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
-    margin-right: 30px;
+  border-bottom: 3px solid #47b2e4;
+  padding: 30px;
+  background: #fff;
+  width: 490px;
+  height: 600px;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
+  margin-right: 30px;
 }
 
-.contact--flexbox--text{
-  display:flex;
+.contact--flexbox--text {
+  display: flex;
   flex-direction: column;
   width: 376px;
   height: 62px;
   overflow: visible;
 }
 
-.contact--flexbox--info h4{
+.contact--flexbox--info h4 {
   display: inline-block;
   padding: 0 0 0 20px;
   font-size: 22px;
@@ -454,35 +451,35 @@ textarea:focus{
   color: #37517e;
 }
 
-.contact--flexbox--info i{
+.contact--flexbox--info i {
   font-size: 20px;
-    color: #47b2e4;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #e7f5fb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
+  color: #47b2e4;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #e7f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
 
-.contact--flexbox--info i:hover{
+.contact--flexbox--info i:hover {
   font-size: 20px;
-    color:  #e7f5fb;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background:#47b2e4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
+  color: #e7f5fb;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #47b2e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
 
-.contact--flexbox--location{
+.contact--flexbox--location {
   display: flex;
   flex-wrap: wrap;
   width: 420px;
@@ -497,7 +494,7 @@ textarea:focus{
   margin-bottom: 20px;
 } */
 
-.contact--flexbox--info p{
+.contact--flexbox--info p {
   width: 376px;
   height: 20px;
   padding: 0 0 10px 20px;
@@ -507,7 +504,7 @@ textarea:focus{
   color: #6182ba;
 }
 
-.contact--flexbox--email{
+.contact--flexbox--email {
   display: flex;
   flex-wrap: wrap;
   width: 420px;
@@ -515,7 +512,7 @@ textarea:focus{
   margin-bottom: 20px;
 }
 
-.contact--flexbox--phone{
+.contact--flexbox--phone {
   display: flex;
   flex-wrap: wrap;
   width: 420px;
@@ -523,7 +520,7 @@ textarea:focus{
   margin-bottom: 20px;
 }
 
-.contact--flexbox--email-form{
+.contact--flexbox--email-form {
   display: flex;
   flex-direction: column;
   width: 620px;
@@ -535,14 +532,14 @@ textarea:focus{
   box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
 }
 
-.email-form--text{
+.email-form--text {
   display: inline-block;
   padding-bottom: 8px;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
-.email-form--input--short{
+.email-form--input--short {
   width: 253px;
   height: 45px;
   padding: 6px 12px;
@@ -551,23 +548,22 @@ textarea:focus{
   border-radius: 5px;
 }
 
-.contact--email-form--input{
+.contact--email-form--input {
   width: 555px;
   height: 45px;
   padding: 6px 12px;
   font-size: 15px;
   border: 1px solid rgb(180, 180, 180);
   border-radius: 5px;
-
 }
 
-.contact--emil-form--top{
+.contact--emil-form--top {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-bottom: 35px;
 }
 
-.contact--email-form--left{
+.contact--email-form--left {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -575,24 +571,23 @@ textarea:focus{
   padding: 0;
 }
 
-.contact--email-form--right{
+.contact--email-form--right {
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
-
 }
 
-.contact--email-form--middle{
+.contact--email-form--middle {
   margin-bottom: 35px;
 }
 
-.contact--email-form--bottom{
+.contact--email-form--bottom {
   display: flex;
   flex-direction: column;
 }
 
-.contact--email-form--teaxtarea{
+.contact--email-form--teaxtarea {
   width: 555px;
   height: 45px;
   padding: 6px 12px;
@@ -601,22 +596,22 @@ textarea:focus{
   border-radius: 5px;
 }
 
-.contact--email-form--teaxtarea:focus{
+.contact--email-form--teaxtarea:focus {
   border: 1px solid rgb(112, 158, 255);
-  outline:none;
+  outline: none;
 }
 
-.contact--email-form--input:focus{
+.contact--email-form--input:focus {
   border: 1px solid rgb(112, 158, 255);
-  outline:none;
+  outline: none;
 }
 
-.email-form--input--short:focus{
+.email-form--input--short:focus {
   border: 1px solid rgb(112, 158, 255);
-  outline:none;
+  outline: none;
 }
 
-.contact--email-form--btn{
+.contact--email-form--btn {
   background-color: #47b2e4;
   width: 170px;
   height: 100px;
@@ -625,35 +620,33 @@ textarea:focus{
   text-align: center;
   border-radius: 40px;
   margin: 15px auto;
-
 }
 
-.contact--email-form--btn span{
+.contact--email-form--btn span {
   color: white;
   font-size: 16px;
   font-weight: 300;
 }
 
-.body--footer{
+.body--footer {
   display: flex;
   flex-direction: column;
 }
 
-.body--footer--newsletter{
+.body--footer--newsletter {
   background-color: #f3f5fa;
   width: 100%px;
   height: 250px;
-
 }
 
-.footer--newsletter--center{
+.footer--newsletter--center {
   width: 570px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
 }
 
-.footer--newsletter--title{
+.footer--newsletter--title {
   font-size: 25px;
   font-weight: bold;
   font-family: "Jost", sans-serif;
@@ -662,14 +655,14 @@ textarea:focus{
   text-align: center;
 }
 
-.footer--newsletter--text{
+.footer--newsletter--text {
   text-align: center;
   font-size: 16px;
   color: #444444;
 }
 
-.footer--newsletter--center form{
-  display:flex;
+.footer--newsletter--center form {
+  display: flex;
   margin-top: 20px;
   background: #fff;
   padding: 6px 10px;
@@ -679,14 +672,14 @@ textarea:focus{
   text-align: left;
 }
 
-.footer--newsletter--input{
+.footer--newsletter--input {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
   height: 30px;
 }
 
-.footer--newsletter--submit{
+.footer--newsletter--submit {
   position: absolute;
   top: 0;
   right: 0;
@@ -702,44 +695,44 @@ textarea:focus{
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
 }
 
-.body--footer--top{
+.body--footer--top {
   width: 100%;
   height: 300px;
   padding: 60px 0 30px 0;
   background: #fff;
 }
 
-.footer--top--inner-box{
+.footer--top--inner-box {
   display: flex;
   margin: 0 auto;
   justify-content: between;
 }
 
-.footer--top--first{
+.footer--top--first {
   display: flex;
   flex-direction: column;
   width: 270px;
   height: 220px;
 }
 
-.footer--top--second{
+.footer--top--second {
   display: flex;
   flex-direction: column;
   width: 270px;
   height: 220px;
 }
 
-.footer--top--first h3{
+.footer--top--first h3 {
   font-size: 28px;
-    margin: 0 0 10px 0;
-    padding: 2px 0 2px 0;
-    line-height: 1;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #37517e;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #37517e;
 }
 
-.footer--top--inner-box h4{
+.footer--top--inner-box h4 {
   font-size: 18px;
   margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
@@ -749,10 +742,9 @@ textarea:focus{
   color: #37517e;
 }
 
-.footer--top--inner--box p{
+.footer--top--inner--box p {
   color: #ff0000;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
->>>>>>> origin/doyun
 }
