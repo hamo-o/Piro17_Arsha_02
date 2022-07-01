@@ -378,7 +378,7 @@ textarea:focus {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 60px 0;
+  padding: 60px 10px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -388,9 +388,9 @@ textarea:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  height: 126.398px;
-  padding-bottom: 30px;
+  width: 75%;
+  height: 128;
+  padding: 0 80px 30px 80px;
 }
 
 .contact--head {
@@ -402,16 +402,16 @@ textarea:focus {
   margin-bottom: 20px;
 }
 
-
 .contact--text {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  padding: 0 10px;
 }
 
 .contact--flexbox {
   display: flex;
-  width: 1116px;
+  width: 100%;
   height: 600px;
   margin: 0 auto;
   overflow: hidden;
@@ -419,10 +419,11 @@ textarea:focus {
 
 .info--outer-box {
   display: flex;
-  width: 1116px;
+  width: 90%;
   height: 600px;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 0 140px;
 }
 
 .contact--flexbox--info {
@@ -446,10 +447,10 @@ textarea:focus {
 
 .contact--flexbox--info h4 {
   display: inline-block;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 40px;
   font-size: 22px;
   font-weight: 900;
-  margin: 5px 0 5px 0;
+  margin: 5px 20px;
   height: 22px;
   width: 376px;
   color: #37517e;
@@ -490,13 +491,6 @@ textarea:focus {
   height: 62px;
   margin-bottom: 20px;
 }
-/* #contact--address--text{
-  width: 406px;
-  height: 21px;
-  padding-left: 60px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-} */
 
 .contact--flexbox--info p {
   width: 376px;
@@ -639,7 +633,7 @@ textarea:focus {
 
 .body--footer--newsletter {
   background-color: #f3f5fa;
-  width: 100%px;
+  width: 100%;
   height: 250px;
 }
 
@@ -698,6 +692,7 @@ textarea:focus {
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  cursor:pointer;
 }
 
 .body--footer--top {
@@ -708,7 +703,6 @@ textarea:focus {
   padding: 60px 0 30px 0;
   background: #fff;
 }
-
 
 .footer--top--inner-box {
   display: flex;
@@ -765,13 +759,11 @@ textarea:focus {
   height: 220px;
 }
 
-
 .body--footer--top i{
   width: 18px;
   height: 18px;
   color: #47b2e4;
   font-size: 14px;
-
 }
 
 .footer--top--third {
@@ -797,7 +789,6 @@ textarea:focus {
 .footer--top--li{
   padding-bottom: 10px;
 }
-
 
 .body--footer--bottom{
   display: flex;
@@ -834,7 +825,6 @@ textarea:focus {
 .footer--fourth--btns{
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer--fourth--btns i{
