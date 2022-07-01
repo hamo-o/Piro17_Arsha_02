@@ -53,7 +53,6 @@ h6 {
 
 body {
   margin: 0;
-  overflow: hidden;
   position: relative;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -217,6 +216,33 @@ body {
   display: inline-block;
   z-index: 997;
   margin-top: 65px;
+  opacity: 0.9;
+}
+
+.navbar a:hover {
+  color: #00a6eb;
+}
+
+.top-start-btn {
+  border-radius: 50px;
+  border: 2px solid #47b2e4;
+  padding: 8px 20px;
+}
+
+.top-start-btn:hover {
+  border-radius: 50px;
+  display: inline-block;
+  transition: 0.5s;
+  color: #fff;
+  background: #47b2e4;
+}
+
+.top-start-btn a:hover {
+  color: white;
+}
+
+.video-button i:hover {
+  color: #47b2e4;
 }
 
 .logo {
@@ -228,7 +254,10 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration-line: none;
-  text-decoration-color: #fff;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
 }
 
 .hero {
@@ -238,9 +267,144 @@ body {
 }
 
 .navbar {
-  position: relative;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  width: 700px;
+  float: right;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.navbar a {
+  text-decoration-line: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.main {
+  background-color: #37517e;
+  height: 610px;
+  margin-top: 65px;
+}
+
+.main-box {
+  margin-top: 65px;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 450px;
+}
+
+.main-text {
+  margin-top: 150px;
+  height: 100%;
+  width: 45%;
+  float: left;
+  font-family: "Jost", sans-serif;
+}
+
+.main-text h1 {
+  font-size: 48px;
+  color: #fff;
+  line-height: 56px;
+}
+
+.main-text p {
+  color: #ffffff99;
+  font-size: 21.5px;
+  margin-bottom: 50px;
+}
+
+.main-animation {
+  margin-top: 130px;
+  height: 100%;
+  width: 45%;
+  float: right;
+}
+
+.main-button {
+  width: 300px;
+}
+
+.start-button {
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  transition: 0.5s;
+  color: #fff;
+  padding: 10px 28px 11px 28px;
+  background: #47b2e4;
+  text-decoration-line: none;
+}
+
+.start-button:hover {
+  background-color: #00a6eb;
+}
+
+.video-button {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  margin: 5px 0 0;
+  color: #fff;
+  line-height: 1;
+  float: right;
+  text-decoration-line: none;
+}
+
+.video-button span {
+  margin-left: 7px;
+}
+
+.main-image {
+  width: 456px;
+  height: 378px;
+}
+
+.clients {
+  padding: 12px 0;
+  margin-top: 150px;
+  height: 88px;
+  background-color: #f3f5fa;
+}
+
+.clients div {
+  padding: 15px;
+  height: 64px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: -5px 60px 0;
+  float: left;
+}
+
+.clients img {
+  width: 61px;
+  height: 26px;
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  transition: all 0.5s;
+}
+
+.clients img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transform: scale(1.5);
 }
